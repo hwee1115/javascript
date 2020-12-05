@@ -7,19 +7,25 @@
     <meta charset="utf-8" />
   </head>
   <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
-    </div>
-    <form class="js-form form">
-        <input type="text" placeholder="what is your name?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="write a to do">
-    </form>
-        <ul class="js-toDoList">
-        </ul>
-        <span class="js-weather"></span>
+    <section class="center">
+      <div class="js-clock">
+        <h1 class="time">00:00</h1>
+      </div>
+      <div class="name">
+      <form class="js-form form">
+        <input type="text" placeholder="what is your name" class="name_input"/>
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      </div>
+      <div class="todo">
+      <form class="js-toDoForm">
+        <input type="text" placeholder="write a to do" class="todo_input" />
+      </form>
+      <ul class="js-toDoList">
+      </ul>
+      </div>
+    </section>
+    <span class="js-weather"></span>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
