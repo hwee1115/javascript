@@ -1,4 +1,3 @@
-# javascript
 # javascript를 이용한 todolist
 > html,css,javascript를 이용한 todolist 구현
 
